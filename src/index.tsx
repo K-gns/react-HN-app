@@ -6,6 +6,6 @@ import Loading from "./components/Loading";
 
 createRoot(document.getElementById("app") as HTMLDivElement).render(
   <Suspense fallback={<Loading />}>
-    <App count={15} />
+    <App count={30} />
   </Suspense>
 );
