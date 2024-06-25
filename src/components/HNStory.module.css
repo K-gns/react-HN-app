@@ -1,0 +1,59 @@
+.storyBox {
+  display: flex;
+  align-items: flex-start;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #dfe1e5;
+  border-radius: 8px;
+  background-color: #ffffff;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.storyBox:hover {
+  background-color: #f5f5f5;
+}
+
+.rank {
+  font-size: 18px;
+  color: #6a737c;
+  margin-right: 12px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a73e8;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.infoBox {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+.infoItem {
+  margin-right: 12px;
+}
+
+.link {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.commentsLink {
+  pointer-events: auto;
+  cursor: pointer;
+}
